@@ -1,5 +1,8 @@
 const { gql } = require('apollo-server');
 
+
+// ! required fields
+
 const typeDefs = gql`
 type Launch {
     id: ID!

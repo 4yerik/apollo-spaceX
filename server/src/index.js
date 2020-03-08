@@ -8,6 +8,7 @@ const UserAPI = require('./datasources/user');
 
 const store = createStore();
 
+// give schema definition
 const server = new ApolloServer({
   typeDefs,
   resolvers,
